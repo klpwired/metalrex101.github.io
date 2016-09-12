@@ -19,6 +19,22 @@ h6, .h6 {
   color: #333;
 }
 
+.container pre{
+  overflow-x: auto;
+  font-size: 12px;
+}
+
+.main .wrapper{
+  width: 350px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.main img{
+  width: 350px;
+}
+
 
 /*
  * Override Bootstrap's default container.
@@ -26,7 +42,7 @@ h6, .h6 {
 
 @media (min-width: 1200px) {
   .container {
-    width: 970px;
+    width: 1200px;
   }
 }
 
